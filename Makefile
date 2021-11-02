@@ -1,6 +1,6 @@
 CC = gcc
 CFLAGS = -Wall -Werror -Wextra -pedantic -std=gnu89
-SRCS := src/$(wildcard *.c)
+SRCS := src/*.c
 OUTNAME = main
 
 all: project
